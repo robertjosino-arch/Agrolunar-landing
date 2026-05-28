@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroLunar - Cultivo autonomo da Lua a Sao Paulo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- cabecalho fixo com menu -->
+  <header class="topo">
+    <div class="logo">
+      <span class="logo-agro">Agro</span><span class="logo-lunar">Lunar</span>
+    </div>
+    <nav class="menu" aria-label="Navegacao principal">
+      <ul>
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#publico">Publico</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#aplicacao">Aplicacao</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- hero - primeira tela -->
+    <section class="hero">
+      <div class="hero-conteudo">
+        <h1>Cultivar na Lua. Cultivar em Sao Paulo. Mesma engenharia.</h1>
+        <p>Sistema autonomo de cultivo hidroponico inspirado no programa Artemis da NASA.</p>
+        <a href="#problema" class="botao" aria-label="Conhecer a solucao AgroLunar">Conhecer a solucao</a>
+      </div>
+      <div class="hero-imagem">
+        <img src="img/hero-lua.jpg" alt="Render de base lunar do programa Artemis com modulos de cultivo">
+      </div>
+    </section>
+
+    <!-- secao 1 - problema -->
+    <section id="problema" class="secao secao-escura">
+      <div class="secao-inner">
+        <div class="secao-label">01 / Problema</div>
+        <h2>Alimentar humanos fora da Terra e nas cidades</h2>
+        <img src="img/superficie-lunar.jpg" alt="Superficie lunar com crateras vista do espaco" class="secao-img">
+        <p>1 kg de comida na Lua custa 1 milhao de dolares. Missoes longas precisam de producao local.</p>
+        <p>O dia lunar tem 14 dias de sol e 14 de escuro total. Plantas nao sobrevivem sem ajuda.</p>
+      </div>
+    </section>
+
+    <!-- secao 2 - tecnologia -->
+    <section id="tecnologia" class="secao secao-clara">
+      <div class="secao-inner">
+        <div class="secao-label">02 / Tecnologia</div>
+        <h2>Hardware que decide sozinho, sem esperar a Terra</h2>
+        <img src="img/arduino-circuito.png" alt="Circuito com ESP32 e sensores DHT22 e LDR no simulador Wokwi" class="secao-img">
+        <p>ESP32 com sensores de temperatura, umidade, luz e solo. A camara irriga e ilumina sozinha, sem internet.</p>
+        <p>Python modela o ciclo dia/noite lunar com funcao trigonometrica. Dados orbitais vem da NASA POWER API.</p>
+      </div>
+    </section>
+
+    <!-- secao 3 - objetivos -->
+    <section id="objetivos" class="secao secao-escura">
+      <div class="secao-inner">
+        <div class="secao-label">03 / Objetivos</div>
+        <h2>Producao autonoma de alimento em ambientes extremos</h2>
+        <p>Permitir cultivo autonomo em bases lunares do Artemis, sem depender de comunicacao com a Terra.</p>
+        <p>Validar a mesma arquitetura em fazendas verticais urbanas, replicavel por menos de R$ 300 por camara.</p>
+      </div>
+    </section>
+
+    <!-- secao 4 - publico-alvo -->
+    <section id="publico" class="secao secao-clara">
+      <div class="secao-inner">
+        <div class="secao-label">04 / Publico-alvo</div>
+        <h2>Dois cenarios, uma engenharia</h2>
+        <img src="img/fazenda-vertical.jpg" alt="Interior de uma fazenda vertical urbana com estantes de alface iluminadas" class="secao-img">
+        <p>Agencias espaciais como NASA e ESA que precisam de producao local de alimento em missoes longas.</p>
+        <p>Pequeno produtor urbano de Sao Paulo e cooperativas de fazenda vertical que querem reduzir custos.</p>
+      </div>
+    </section>
+
+    <!-- secao 5 - beneficios -->
+    <section id="beneficios" class="secao secao-escura">
+      <div class="secao-inner">
+        <div class="secao-label">05 / Beneficios</div>
+        <h2>Numeros que ja existem em fazendas verticais reais</h2>
+        <p>Reducao de 95% no consumo de agua frente a agricultura tradicional, segundo dados de operacoes reais.</p>
+        <p>Custo de R$ 300 por camara, contra R$ 30 mil ou mais das solucoes comerciais atuais do mercado.</p>
+      </div>
+    </section>
+
+    <!-- secao 6 - aplicacao no dia a dia -->
+    <section id="aplicacao" class="secao secao-clara">
+      <div class="secao-inner">
+        <div class="secao-label">06 / Aplicacao no dia a dia</div>
+        <h2>Do extremo ao cotidiano, o mesmo sistema</h2>
+        <img src="img/camara-cultivo.jpg" alt="Camara de cultivo hidroponico com alface crescendo sob luz artificial" class="secao-img">
+        <p>Na Lua, alimenta astronautas sem depender de reabastecimento vindo da Terra. A camara opera sozinha.</p>
+        <p>Em Sao Paulo, abastece restaurantes e quintais com folhas frescas. Tecnologia do extremo pro cotidiano.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- rodape -->
+  <footer class="rodape">
+    <p>Robert RM571622 | Ryan RM573051 | Vitor RM573194</p>
+    <p>FIAP Global Solution 2026.1 - Industria Espacial - Front-End Design</p>
+  </footer>
+
+</body>
+</html>
