@@ -1,2 +1,2 @@
 Repositorio do projeto AgroLunar - Front-End:
-[inserir URL do repositorio apos criar no GitHub]
+https://github.com/robertjosino-arch/Agrolunar-landing
